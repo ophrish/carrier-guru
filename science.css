@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  height: 4rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.pcmi {
+  height: 17rem;
+}
+
+.p1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.pcbi {
+  height: 17rem;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    display: block;
+  }
+  .pcb {
+    margin-top: 3rem;
+  }
+}

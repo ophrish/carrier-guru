@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+nav {
+  height: 4rem;
+  width: 98.5vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+.logo {
+  height: 4rem;
+  margin-right: 3.2rem;
+}
+.l1 {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+    margin-top: 1rem;
+    font-size: large;
+}
+
+.heading{
+    margin: 1rem;
+    margin-left: auto;
+}
+
+.p1{
+  margin-top: 1rem;
+  font-size: medium;
+  margin-bottom: 2rem;
+}
